@@ -1,0 +1,120 @@
+---
+name: Mingyu
+surname: Wang
+position: "PhD Candidates"
+address: "Tsinghua  University, Beijing, 100084, P.R.China"
+phone: +86 13051776630
+www: wmymingyu.github.io
+email: "wmy18@mails.tsinghua.edu.cn"
+twitter: wmymingyu
+github: wmymingyu
+linkedin: wmymingyu
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+headcolor: "414141"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD in Sociology", "2018-Now", "Tsinghua University", "Beijing, P.R.China",
+  "Bachelor of Laws", "2014-2018", "Shandong University", "Jinan, P.R.China",
+  "Exchange Student", "Feb.-June. 2017", "National Chengchi University", "Taiwan, P.R.China"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Research Experience
+
+## Social Governance
+
+```{r}
+SG <- tibble::tribble(
+  ~ actor, ~ date, ~ name, ~ location, ~ details,
+  "Research Leader", "Jan. 2021", "Study on Poverty Alleviation and Rural Revitalization Strategy", "Beijing, P.R.China", c("Investigated the current situation of rural governance in Wushan County, Chongqing City, China.", "Wrote a research report entitled One-Core and Multiple-Governance"),
+  "Research Associate", "Nov. 2020", "Research on the Construction of Emergency Management System for Public Emergencies", "Beijing, P.R.China", "Investigated the current situation of emergency management of public emergencies in Taizhou city, Jiangsu Province, China",
+  "Research Associate", "Fer. 2020", "The bibliography of 'Social Governance in the Information Age'", "Beijing, P.R.China", "In charge of the chapter 'The Influence of Internet on Social Governance'",
+  "Research Associate", "Dec. 2019", "Study on Zhoushan city's social governance ability", "Beijing, P.R.China", "Wrote investigation report about 'Zhoushan city's social governance ability and development' (The report was selected as a case of China's social governance innovation)",
+  "Research Associate", "Dec. 2018", "Study on social governance ability and system modernization strategy of Qinghai province", "Beijing, P.R.China", c("Wrote literature review of 'governance' and 'social governance'", "Summarized the problems of social governance and development in Qinghai province"),
+  "Research Associate", "Dec. 2018", "Study China social governance and development index", "Beijing, P.R.China", c("Collected information on the development of social governance in China", "Constructed 'China Social Governance and Development Index'"),
+  "Principal Investigator", "June. 2018", "Study on Rural Governance in Jinan", "Jinan, P.R.China", c("Designed the research framework", "Wrote the project report about 'Jinan in-depth implementation of rural revitalization strategy research'"),
+  "Principal Investigator", "Feb. 2018", " Study on the Normalization of Beautiful City Governance in Jinan", "Jinan, P.R.China", c("Designed the research framework and division of labor", "Wrote the project report 'The normalization of Jinan's construction of beautiful city'")
+  )
+SG %>%
+  detailed_entries(what = name, when = date, with = actor, where = location, why = details)
+```
+
+## Risk Governance
+
+```{r}
+RG <- tibble::tribble(
+  ~ actor, ~ date, ~ name, ~ location, ~ details,
+  "Research Member", "2019 - now", "Research on the Main Risks and Countermeasures Faced by the Construction of the BRI", "Beijing, P.R.China", c(
+    "Project of Philosophy and Social Science Foundation of China[18VDL015]",
+    "Paying attention to environmental risk content: “Formulate Governance Strategies Based on Economic Corridors: Types of Environmental Risks and Governance Strategies in Countries Along the ‘Belt and Road’” (The paper won the first prize of excellent paper of China Development Strategy Research Association in 2020)",
+    "Writing health risk papers: 'Social Resilience of Health: A Structural Framework'"
+  ),
+  "Principal Investigator", "Jan. 2020", "Study on localization of Chinese Companies in Tanzania", "Beijing, P.R.China", c(
+    "Academic instructor of the project team",
+    "Designed interview outline and carry out fieldwork in Tanzania",
+    "Wrote the project report about 'Risks of Chinese enterprises in the localization process in Tanzania'"
+  ),
+  )
+RG %>%
+  detailed_entries(what = name, when = date, with = actor, where = location, why = details)
+```
+
+## Sociology of Technology
+
+```{r}
+ST <- tibble::tribble(
+  ~ actor, ~ date, ~ name, ~ location, ~ details,
+  "Research Leader", "Jan. 2021 - now", "Research on Classic Works of Sociology of Technology", "Beijing, P.R.China", c(
+    "Selected readings of Technical Sociology Classics, and Translated",
+    "Combed the development of sociology of technology and China's path"
+  ),
+  )
+RG %>%
+  detailed_entries(what = name, when = date, with = actor, where = location, why = details)
+```
+
+# AWARDS
+
+```{r}
+awards <- tibble::tribble(
+  ~ name, ~ date, ~ organization, ~ location,
+  "Dean scholarship", "2020", "Tsinghua University", "Beijing, P.R.China",
+  "Excellent League Member", "2020", "Tsinghua University", "Beijing, P.R.China",
+  "First prize of women's volleyball match", "2019", "Tsinghua University", "Beijing, P.R.China",
+  "Outstanding Graduates in Shandong Province", "2018", "Shandong University", "Jinan, P.R.China",
+  "First-class scholarship", "2014-2017", "Shandong University", "Jinan, P.R.China",
+  "First finisher of a patent(Patent of a type of mask for pets [CN206547590U])", "2017", "Shandong University", "Beijing, P.R.China",
+  "National Scholarship", "2016", "Shandong University", "Jinan, P.R.China",
+  "Model Student of Academic Records in Shandong Province", "2016", "Shandong University", "Jinan, P.R.China",
+  "Excellent Student Cadre", "2016", "Shandong University", "Jinan, P.R.China",
+  "2nd price of University Students Volleyball League in Shandong", "2016", "Shandong University", "Jinan, P.R.China",
+  )
+awards %>%
+  detailed_entries(what = name, when = date, with = location, where = organization)
+```
+
+# Skill
+
+```{r}
+skill <- tibble::tribble(
+  ~ work,
+  "Program: Statistical software including R, SPSS",
+  "Application: Photography, PS",
+  "Language: Korean (Conversational), English (IELTS), Chinese (Native)",
+  )
+skill %>%
+  detailed_entries(what = work)
+```
