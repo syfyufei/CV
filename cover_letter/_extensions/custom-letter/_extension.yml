@@ -1,0 +1,7 @@
+title: Custom Letter Template
+author: Cascade
+version: 1.0.0
+contributes:
+  formats:
+    pdf:
+      template: template.tex

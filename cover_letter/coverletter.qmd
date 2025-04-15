@@ -1,0 +1,81 @@
+---
+author: 孙宇飞
+qualifications: PhD Candidate
+# position
+www: adriansun.drhuyue.site
+email: sunyf20@mails.tsinghua.edu.cn
+phone: +86 18813103532
+#signature: sigfile.png
+opening: "尊敬的 招聘团队,"
+linestretch: 1.4
+# ps: 
+format: 
+  letter-pdf:
+    include-in-header:
+      text: |
+        \usepackage{graphicx}
+---
+
+您好，
+
+我是清华大学计算社会科学专业博士五年级的博士生孙宇飞，感谢您拨冗阅读我的简历和自荐信。
+我将从"自身优势"和"对产品经理工作的理解"两个方面向您进行自我推荐。
+
+
+自身优势。
+“技术背景、产品关怀、国际视野”是我希望向您展示的三项核心优势。
+在技术背景方面，清华大学交叉学科培养体系使我掌握了扎实的计算机和统计学知识，我主导开发的多个R/Python软件包在GitHub等平台累计下载数万次，部分包的月活跃使用量达数千次。
+我还活跃组织技术社区，作为清华大学的校园大使，我是Github公司在中国内地唯二的Campus Expert之一；
+同时，我作为学生发起人组织清华大学R语言社区，累计教学5年，3000+人次。
+去年，我还以客座教授的身份，在日本东京大学开设了英文授课的“LLM Prompt Engineering Specialization”课程，教学效果获得高度评价。
+
+在沟通表达方面，我是领域国际顶级期刊的作者和审稿人，用中英文在国内外顶尖高校开设多门学术课程，具有熟练的中英文口语和书面表达能力。
+在此基础上，社会科学的背景，培养了我见微知著，从微观看宏观，抽象和升华价值的思维能力，我相信这是“讲好产品故事”必要的能力。
+
+我还有着丰富的跨文化交流和协作能力，
+作为多项国家级课题的学生负责人，我具有丰富的政府、科研、研发团队的合作和管理经验；
+在东京大学担任客座教授的经历，又提升了我和不同文化背景下国际团队的合作能力；
+我热爱旅行，独自旅行超过35个国家，在欧洲、日韩、港台有长期生活经历，这让我不仅能够和不同文化背景的人交流，还能够理解不同文化背景下的产品需求。
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{/Users/adrian/Documents/Yufei_Sun/THU/projects/CV/cover_letter/PA.png}
+
+\textbf{图1: 个人优势矩阵}
+\end{center}
+
+在科研项目中和产品、研发团队的密切协作，建构了我对产品经理工作的初步理解：我认为，学术研究与产品经理的工作具有通用的\textbf{核心能力}和\textbf{工作流}，我在博士期间培养的状态亦能够让我出色的胜任产品经理的工作。
+
+产品工作的第一阶段是识别和收集用户需求，这与学术研究中“提出研究问题”环节十分类似。
+处理大规模非结构化数据的经验，能够帮我助基于数据驱动，挖掘用户需求；
+长期、大量的研究访谈，对焦点小组、过程追踪等科学化访谈方法的熟练掌握，能够帮助我基于用户驱动，找到“真需求”。
+
+制定产品方案和学术研究中的“制定研究计划”一致。
+“怎么满足需求”是这一阶段的关键问题和我的擅长，跨文化背景使我能够深刻理解不同文化背景下的产品需求，团队协作能力使我能够与不同背景的团队成员有效沟通。
+在用户反馈阶段，数据挖掘和深度访谈的能力又再次给我提供了独特的优势，能够及时发现产品问题并快速迭代。
+
+产品不仅要满足需求，还需要建构和塑造用户的习惯和行为。这和学术研究的“理论建构”过程一致。
+这就需要产品经理有着丰富的经验抽象和价值升华能力。
+扎实的学术和理论思辨训练让我能够从宏观、全局和系统的角度处理需求，迭代产品，“讲好产品故事”
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{/Users/adrian/Documents/Yufei_Sun/THU/projects/CV/cover_letter/PM.png}
+
+\textbf{图2: 产品经理与学术研究}
+\end{center}
+
+综上，我谨向您自我推荐，随信附上简历，期盼有机会进一步交流。
+再次感谢您拨冗阅读此信。
+
+\vspace{1cm}
+
+祝好
+
+\vspace{2cm}
+\begin{flushright}
+\includegraphics[height=1.5cm]{/Users/adrian/Documents/Yufei_Sun/THU/projects/CV/cover_letter/sigfile.png}
+\end{flushright}
+
+
+
+
+
